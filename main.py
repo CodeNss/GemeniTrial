@@ -37,8 +37,9 @@ from langchain.prompts import PromptTemplate
 #     if text:
 #         speaker.Speak(text)
 
+GOOGLE_API_KEY = "AIzaSyDmtc6i6dN62YSxhxNiYzUFVODGqQJbWro"
 
-
+genai.configure(api_key=GOOGLE_API_KEY)
 
 
 
